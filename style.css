@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Gradient-Purple-Aesthetic-Wallpaper-364x650.jpg');
+    background-size: cover;
+}
+
+nav a {
+    color: black;
+    gap: 10%;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Added transition for smooth hover effect */
+}
+
+nav a:hover {
+    color: violet; /* Change color on hover */
+}
+
+li {
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    gap: 10%;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-left: 35%;
+}
+
+.comp {
+    margin-top: 15%;
+    gap: 20px;
+}
+
+.b1 {
+    margin-left: 40%;
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+.title {
+    text-shadow: 20px solid violet;
+    margin-left: 15%;
+    margin-top: 20px;
+    font-size: 80px;
+}
+
+.para {
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+.box1 {
+    width: 65%;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Modified box shadow */
+    transition: transform 0.3s ease; /* Added transition for smooth zoom effect */
+}
+
+.box1:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.box2 {
+    background-image: url('img.jpg');
+    background-size: cover;
+    border: 2px solid #666699;
+    margin-top: 15%;
+    padding: 20px;
+    width: 70%;
+}
+
+.whole {
+    background-image: url('Gradient-Purple-Aesthetic-Wallpaper-364x650.jpg');
+    display: flex;
+}
+
+.p1 {
+    font-size: 45px;
+}
+
+.p2 {
+    font-size: 45px;
+}
+
+.he1 {
+    margin-left: 40%;
+}
+
+.he2 {
+    margin-left: 8%;
+}
