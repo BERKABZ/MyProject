@@ -6,9 +6,9 @@ import { cardfunc } from "./card.js"
 let sec1 = document.getElementById('section1')
 let sec2 = document.getElementById('section2')
 
-let obj1 = {
-    title   : "Lami ya ? Ali nga on ta!!",
-    par     : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero eius fugit facilis odit voluptatem provident, fuga asperiores possimus perferendis deserunt perspiciatis, architecto mollitia atque! Debitis, saepe! Sint inventore incidunt sequi.",
+    let obj1 = {
+    title   : "Virgilio Araño Jr.",
+    par     : "I study hard a programing languages to in hands my power skill of programing thats all thank you!! ",
     button  : "Contact me",
     img     : "./images/rere.png"
 }
@@ -17,7 +17,7 @@ const { title, par, button, img } = obj1
 
 let obj2 = {
     image   : "./images/Ardunio.jpg",
-    desc    : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero eius fugit facilis odit voluptatem provident, fuga asperiores possimus perferendis deserunt perspiciatis, architecto mollitia atque! Debitis, saepe! Sint inventore incidunt sequi.",
+    desc    : "This is my project Using Arduino",
     button1 : "learn more",
     title2  : "PROJECT COMPLETED"
 }
