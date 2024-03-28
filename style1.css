@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -109,4 +110,36 @@ img {
     transform: scale(1.1); 
     z-index: 1; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    body {
+        height: auto; /* Allow body height to adjust for smaller screens */
+        overflow-y: auto; /* Enable vertical scrolling when necessary */
+    }
+
+    .img {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .image-container {
+        flex: 0 0 calc(50% - 20px); /* Adjust width for two items in a row on smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .img {
+        padding: 5px; /* Further adjust padding for smaller screens */
+    }
+
+    .image-container {
+        flex: 0 0 calc(100% - 20px); /* Adjust width for single item per row on smaller screens */
+    }
+
+    img {
+        width: 100%; /* Make images fill container width on smaller screens */
+        height: auto; /* Ensure aspect ratio is maintained */
+    }
 }
