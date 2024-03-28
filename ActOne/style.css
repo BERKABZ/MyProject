@@ -64,6 +64,9 @@ h1 {
     border-radius: 10px;
     display: inline-block; /* Ensure the button is displayed as inline block */
     padding: 2px 10px; /* Adjust padding for better button appearance */
+     transition: .5s;
+    transform: translate(-50%, -50%);
+    transition-delay: .10s;
 }
 .back-button:hover{
     color: red  ;
